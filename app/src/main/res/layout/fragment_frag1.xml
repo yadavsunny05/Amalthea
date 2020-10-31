@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradiant_home"
+    app:layout_constraintBaseline_toBaselineOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintBottom_toTopOf="parent"
+    tools:context=".frag4">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/lol"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                >
+            <ImageView
+
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/gradiant_list"
+                android:scaleType="centerInside"
+                android:src="@drawable/amal" />
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/gradiant_home"
+                android:padding="10dp"
+                android:text="Our Campus Ambassador Programme is now live!  Register here." />
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="10dp">
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arvo"
+                android:text="Integrating Technologies "
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+</android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp">
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:elevation="5dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:padding="5dp"
+                android:text="The theme for this year focuses on exploring the endless possibilities that could be realised through a combination of numerous advancements across various fields of science and technology with a vision to bring about revolutionary changes and to transform ideas into reality. This interdisciplinary amalgamation along with efforts towards preserving resources, can help us provide innovative solutions to real life problems, which requires us to be equipped with skills of various disciplines. We believe that a lot of possibilities exist which have however remained unexplored, all we need is a vision to link the technologies."
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amethysta"
+                android:text="Our Vision"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp">
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="● Touch lives and inspire creative thinking by showcasing ideas and thoughts while spreading knowledge among the people. \n\n● Strive to bridge the gap between the industry and the academia by providing them a common platform to discuss the future of technology in India.\n\n● Aims to foster scientific temper, innovation, inquisition and creativity among the masses and to enlighten young minds through technology."
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/home_card"
+                android:layout_width="wrap_content"
+                android:layout_height="460dp"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp">
+
+                </android.support.v4.view.ViewPager>
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabDots_multiple"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/image_slider_pager"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="350dp"
+                    app:tabBackground="@drawable/tab_selector"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home_speakers"
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabDots_multiple2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/image_slider_pager"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="250dp"
+                    app:tabBackground="@drawable/tab_selector"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp" />
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/button_subscribe"
+                android:text="SUBSCRIBE NOW"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:elevation="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/gradiant_button"
+                android:background="@drawable/shape_but"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <!-- TODO: Update blank fragment layout -->
+
+</LinearLayout>

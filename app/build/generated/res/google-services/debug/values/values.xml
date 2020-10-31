@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">416306064627-0eliotbtv39lrhb6ctrg0arjqbft2mol.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://amalthea18.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">416306064627</string>
+    <string name="google_api_key" translatable="false">AIzaSyAIkqHKpfUjTTYIOMoxX7qwbWzjH1TpLpg</string>
+    <string name="google_app_id" translatable="false">1:416306064627:android:14d3612decaffec8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAIkqHKpfUjTTYIOMoxX7qwbWzjH1TpLpg</string>
+    <string name="google_storage_bucket" translatable="false">amalthea18.appspot.com</string>
+    <string name="project_id" translatable="false">amalthea18</string>
+</resources>

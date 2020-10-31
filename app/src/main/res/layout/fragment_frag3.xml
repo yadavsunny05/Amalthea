@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".frag2">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/symposium">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                >
+            <TextView
+                android:id="@+id/imageViewSymp"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="0dp"
+                android:text="SYMPOSIUM"
+                android:fontFamily="@font/pt_sans_bold"
+                android:gravity="center"
+
+                android:textAlignment="center"
+
+                android:textColor="@android:color/white"
+                android:textSize="60sp"
+                android:background="@drawable/gradiant_list_sym" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:background="@color/cardview_light_background"
+                >
+            <TextView
+                android:id="@+id/textViewSymp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pt_sans"
+                android:text="What is Symposium? "
+                android:textAlignment="center"
+                android:paddingLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:background="@color/cardview_light_background"
+                >
+            <TextView
+                android:id="@+id/textSymp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="pt_sans"
+                android:text="The Symposium at Amalthea provides a platform for experts, scholars, enthusiasts and prospective clients with common interests to share their expertise, research and advances.It strives to bring together prospective collaborators and allow them to have a constructive exchange of ideas and perspectives.The theme for Symposium this year is: ‘Advancing Solar Power Generation’.  "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:background="@color/cardview_light_background"
+                >
+            <TextView
+                android:id="@+id/textViewsym2details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/pt_sans"
+                android:text="Why ‘Advancing Solar Power Generation’ ?"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:background="@color/cardview_light_background"
+                >
+            <TextView
+                android:id="@+id/textSymp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="pt_sans"
+                android:text="Solar power is a very promising renewable energy source of power generation that can lead to a more sustainable solution of the energy requirements. In the next decade, India’s energy profile will have solar power as a crucial component. The Symposium aims to realize the immense potential and emerging opportunities in this sector by holding a fruitful discussion on the challenges,problems and possible solutions."
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:background="@color/cardview_light_background"
+                >
+            <TextView
+                android:id="@+id/textViewsympthis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="pt_sans"
+                android:text="Present Year"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclersymp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/button_subscribe"
+                android:text="SUBSCRIBE NOW"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:elevation="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/gradiant_button"
+                android:background="@drawable/shape_but"/>
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_box"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="480dp"
+        android:layout_centerInParent="true"
+        android:padding="0dp"
+        app:contentPadding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dialogimage1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="7dp"
+            app:autoSizeTextType="uniform"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/dialogtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="105dp"
+            android:fontFamily="@font/pt_sans"
+            android:padding="2dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/dialogtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="53dp"
+            android:fontFamily="@font/pt_sans"
+            android:padding="2dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/dialogtext3"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pt_sans"
+            android:padding="2dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/dialogtext4"
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/pt_sans"
+            android:textColor="@android:color/black"
+            android:padding="2dp"
+            android:text="TextView"
+            app:autoSizeTextType="uniform" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

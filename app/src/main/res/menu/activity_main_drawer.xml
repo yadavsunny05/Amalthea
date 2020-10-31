@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="AMALTHEA'18 Website" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_subscriptions_black_24dp"
+            android:title="Subscribe Us" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_developer_mode_black_24dp"
+            android:title="Developers" />
+
+    </group>
+    <item android:title="Social Media">
+        <menu>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/fb"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/lol"
+            android:icon="@drawable/insta"
+            android:title="Instagram" />
+
+
+        </menu>
+
+
+
+    </item>
+
+</menu>

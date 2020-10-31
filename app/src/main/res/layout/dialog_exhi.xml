@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/exi_dialog_box"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_exi"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="0dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        app:contentPadding="10dp">
+
+
+        <TextView
+            android:id="@+id/exi_dialogtext3"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/exi_dialogtext4"
+            android:layout_width="wrap_content"
+            android:layout_height="251dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="170dp"
+            android:text="TextView"
+            app:autoSizeTextType="uniform" />
+
+        <ImageView
+            android:id="@+id/exi_dialog_img"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@color/cardview_dark_background" />
+
+        <Button
+            android:id="@+id/exi_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="430dp"
+            android:background="@color/colorPrimary"
+            android:foregroundGravity="center_horizontal"
+            android:padding="5dp"
+
+            android:text="Exihibitor's Website"
+            android:textColor="@android:color/white" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

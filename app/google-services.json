@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "416306064627",
+    "firebase_url": "https://amalthea18.firebaseio.com",
+    "project_id": "amalthea18",
+    "storage_bucket": "amalthea18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416306064627:android:14d3612decaffec8",
+        "android_client_info": {
+          "package_name": "com.amalthea.amalthea.amalthea18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416306064627-c9jd0k98nebsjtfa9rcg5laljqohqu61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amalthea.amalthea.amalthea18",
+            "certificate_hash": "ff83898ab91b57f2c4d86ca76a93146c4119c036"
+          }
+        },
+        {
+          "client_id": "416306064627-0eliotbtv39lrhb6ctrg0arjqbft2mol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIkqHKpfUjTTYIOMoxX7qwbWzjH1TpLpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416306064627-0eliotbtv39lrhb6ctrg0arjqbft2mol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

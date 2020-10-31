@@ -1,0 +1,4 @@
+#Wed Sep 05 03:02:38 IST 2018
+base.0=D\:\\Amalthea182 final\\Amalthea182\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

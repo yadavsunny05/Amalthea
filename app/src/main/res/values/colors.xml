@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d0d0d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="newcolour">#819999</color>
+    <color name="grey">#d4d4d4</color>
+    <color name="conclave">#cdeccf</color>
+    <color name="symposium">#f7f2db</color>
+    <color name="exi">#e0daff</color>
+    <color name="eve">#eadaf1</color>
+    <color name="spons">#f9f8ee</color>
+    <color name="subs">#f7c4fd</color>
+
+</resources>
